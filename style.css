@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* Header styles */
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-nav li {
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.nav-link.login-button {
+  /* button styles here */
+   background-color: #007bff;
+   color: blue;
+}
+
+/* Banner styles */
+.jumbotron {
+  background-image: url('https://www.example.com/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.jumbotron h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px #000000;
+}
+
+.jumbotron p {
+  font-size: 2rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px #000000;
+}
+
+.btn-primary {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 1px 1px 5px #000000;
+}
+
+.btn-primary:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Features styles */
+.container h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Call to Action styles */
+.jumbotron.bg-info {
+  height: 400px;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+.jumbotron.bg-info h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.jumbotron.bg-info p {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.btn-light {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 1px 1px 5px #000000;
+}
+
+.btn-light:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navbar-brand img {
+  height: 30px;
+  margin-right: 8px;
+  display: flex;
+  position: absolute;
+  padding: 20px;
+}
+
+#services {
+  background-color: #f9f9f9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.service-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-box:hover {
+  box-shadow: 0px 0px 40px rgba(0,0,0,0.2);
+  transform: translateY(-5px);
+}
+
+.service-box img {
+  max-width: 200px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+#about {
+  background-color: #f9f9f9;
+  padding-top: 50
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+}
+
+#contact{
+  padding: 50px 7%;
+}
+
+
+
+
